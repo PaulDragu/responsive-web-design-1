@@ -1,0 +1,12 @@
+body {
+  color: white;
+  background-color: green;
+}
+
+.medium {
+  display: block;
+}
+
+.large, .small {
+  display: none;
+}

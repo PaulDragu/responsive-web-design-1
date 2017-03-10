@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: salmon;
+}
+
+.large, .medium, .small {
+  display: none;
+}
+
+/* for large screen sizes */
+@media (max-width: 1600px) {
+  body {
+    background-color: red;
+  }
+  .large {
+    display: block;
+  }
+  .small, .medium {
+    display: none;
+  }
+}
+
+/* for medium screen sizes */
+@media (max-width: 800px) {
+  body {
+    background-color: green;
+  }
+  .medium {
+    display: block;
+  }
+  .large, .small {
+    display: none;
+  }
+}
+
+/* for small screen sizes */
+@media (max-width: 480px) {
+  body {
+    background-color: yellow;
+  }
+  .small {
+    display: block;
+  }
+  .large, .medium {
+    display: none;
+  }
+}

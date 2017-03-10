@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  height: 20rem;
+  text-align: center;
+  -ms-align-items: center;
+  align-items: center;
+  justify-content: center;
+}
+section {
+  display: flex;
+  margin: 2rem;
+  padding: 2rem;
+}
