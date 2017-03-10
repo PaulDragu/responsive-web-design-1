@@ -1,0 +1,13 @@
+body {
+  background-color: red;
+}
+.large {
+  display: block;
+}
+.medium, .small {
+  display: none;
+}
+.box {
+  width: 20vw;
+  height: 20vw;
+}

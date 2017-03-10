@@ -1,0 +1,19 @@
+@import url("large.css") (max-width: 1600px);
+@import url("medium.css") (max-width: 800px);
+@import url("small.css") (max-width: 480px);
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  background-color: pink;
+  border-radius: 1%;
+  margin: 1%;
+}

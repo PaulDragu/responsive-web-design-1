@@ -1,0 +1,17 @@
+body {
+  color: white;
+  background-color: green;
+}
+.medium {
+  display: block;
+}
+.large, .small {
+  display: none;
+}
+section {
+  flex-wrap: wrap;
+}
+.box {
+  width: 40vw;
+  height: 40vw;
+}
